@@ -1,0 +1,306 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: Source Sans Pro ;
+	background: #ffffff;
+	height: 100%;
+	margin: 0;
+    padding: 0;
+    font-size: 16px;
+    background-color: #c0c0c0;
+    color: #4f4f4f;
+    text-align: justify;
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.background{
+	margin: 0 auto;
+	width: 1300px;
+	background: #ffffff;
+	box-shadow: 0 -8px 12px;
+	position: relative;
+	
+}
+
+
+/*MENU*/
+.menu ul{
+	list-style: none;
+	text-transform: uppercase;
+	background: #b59824;
+	overflow: hidden;
+}
+
+.menu ul li a{
+
+	text-decoration: none;
+	font-size: 25px;
+	color: #0a0a0a;
+	transition: color 1s;
+}
+
+.menu ul li{
+	float: left;
+	padding: 5px;
+	transition: background-color 1s;
+}
+
+
+nav {
+    margin: 0 auto;
+    text-align: center;
+}
+
+nav ul {
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	border-radius: 10px;  
+	list-style: none;
+	position: relative;
+	display: inline-table;
+}
+
+
+nav ul li:hover {
+	background: #2463b5;
+}
+
+nav ul li:hover a {
+	color: #fff;
+}
+
+nav ul li a {
+	display: block; 
+	padding: 15px 80px;
+	color: #757575; 
+	text-decoration: none;
+}
+
+
+
+/*CONTEUDO*/
+.conteudo_main{
+	width: 1170px;
+	padding: 15px;
+	margin: auto;
+	overflow: hidden;
+	height: 1800px;
+}
+
+.titulo{
+	margin-top: 75px;
+	margin-bottom: 20px;
+	border-bottom: #d8a40a solid 4px;
+}
+
+.conteudo{
+	width: 1170px;
+	float: left;
+	height: 2050px;
+}
+
+
+.conteudo article img{
+	width: 680px;
+	float: left;
+
+}
+
+.conteudo article{
+	margin: 0px 80px 50px 0px;
+	float: left;
+}
+
+
+.conteudo article p{
+
+	font-size: 17px;
+	
+}
+
+
+/*RODAPÉ*/
+
+
+footer {
+	margin: 0;
+	position: absolute;
+	font-size: 18px;
+	bottom: 0px;
+    width: 1000px;
+    left: 160px;
+	height: 80px;
+}
+ 
+.background_style{
+    position: absolute;
+    font-size: 18px;
+    bottom: 0px;
+    height: 80px;
+	width: 1300px; 
+	left: -160px;
+}
+
+.style_screen{
+	position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #83b551;
+    border-top: 7px solid #d8a40a;
+}
+
+.content_text{
+	position: absolute;
+	top: 10px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.content_footer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.content_footerbg{
+    position: absolute;
+    top: 7px;
+    right: 0;
+    bottom: 0px;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 0;
+}
+
+
+/*HOME*/
+
+.imagens{
+
+	float: left;
+	margin: 80px;
+	padding: 0px;
+	display: block;
+}
+
+
+/*Sobre*/
+.conteudo_sobre{
+	width: 1170px;
+	padding: 15px;
+	margin: auto;
+	overflow: hidden;
+	height: 4500px;
+}
+
+
+/*CONTATO*/
+.contato_main {
+	width: 1170px;
+    padding: 15px;
+    margin: auto;
+    overflow: hidden;
+    height: 684px;
+}
+}
+
+.contato{
+	font-size: 25px;
+}
+
+.contato_main article{
+	width: 1030px;
+	padding: 10px;
+}
+
+.coluna{
+	left: 500px;
+	position: absolute;
+	top: 450px;
+}
+
+/*CAIXA DE CONTATO*/
+
+.box_contato{
+	top: 0;
+}
+
+.box_msg{
+    bottom: 0;
+    padding: 0 0 5px 5px;
+    position: absolute;
+    right: 2px;
+    top: 0;
+}
+
+
+.cf1 textarea{
+	resize: none;
+}
+
+.cf1 button {
+    border: 0;
+    color: #FFFFFF;
+    cursor: pointer;
+    background-color: #2463b5;
+    font: normal normal normal 16px/1.3em 'Palatino Linotype',serif;
+    padding: 5px;
+    position: ;
+    top: 0;
+}
+
+.cf1{
+	width: 641px;
+	top: 550px;
+	left: 70px;
+	height: 152px;
+}
+
+.cf1 ul {
+	list-style: none;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.cf1 li {
+    width: 50%;
+}
+
+.cf1 li {
+    box-sizing: border-box;
+    position: relative;
+}
+
+.cf1 input, .cf1 textarea {
+    background-color: rgba(255, 255, 255, 1);
+    font: normal normal normal 13px/1.3em Tahoma,tahoma-w01-regular,tahoma-w02-regular,tahoma-w10-regular,tahoma-w15--regular,tahoma-w99-regular,sans-serif;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 1px solid rgba(212, 212, 212, 1);
+    color: #000000;
+    margin: 0 0 5px;
+    padding: 5px;
+    width: 100%;
+}
+
+.cf1 button, .cf1 input, .cf1 textarea {
+    box-sizing: border-box;
+    border-radius: 0;
+}
+
+input, select, textarea {
+    font-family: Helvetica,Arial,sans-serif;
+    box-sizing: border-box;
+	
+}
+
